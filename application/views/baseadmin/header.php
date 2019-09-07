@@ -69,16 +69,18 @@
               <div class="menu_section">
                 <h3>Laporan</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-file"></i> Parsial/Mandiri <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-file"></i> Nilai Siswa <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="<?php echo base_url(); ?>laporan_mandiri/search">Laporan</a></li>
-                      <li><a href="<?php echo base_url();?>laporan_mandiri/tahunan">Laporan Tahunan</a></li>
+                      <li><a href="<?php echo base_url(); ?>#">Laporan</a></li>
+                      <li><a href="<?php echo base_url();?>#">Laporan Tahunan</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-file-o"></i> Paket <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-file-o"></i> Master <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="<?php echo base_url(); ?>laporan_paket/search">Laporan</a></li>
-                      <li><a href="<?php echo base_url();?>laporan_paket/tahunan">Laporan Tahunan</a></li>
+                      <li><a href="<?php echo base_url(); ?>master/aspek">Aspek</a></li>
+                      <li><a href="<?php echo base_url(); ?>master/sub_aspek">Sub Aspek</a></li>
+                      <li><a href="<?php echo base_url(); ?>master/murid">Murid</a></li>
+                      <li><a href="<?php echo base_url(); ?>master/guru">Guru</a></li>
                     </ul>
                   </li>
                 </ul>

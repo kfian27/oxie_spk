@@ -93,24 +93,21 @@
 //	'failover' => array(),
 //	'save_queries' => TRUE
 //);
-$active_group = 'report';
+$active_group = 'SS';
 $active_record = TRUE;
 
-$tnsname = '(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 172.18.0.147)(PORT = 1521))
-        (CONNECT_DATA = (SID = dbTI2)))';
-
-$db['report']['hostname'] = $tnsname;
-$db['report']['username'] = 'monitoringssw';
-$db['report']['password'] = 'monitoringssw2019';
-$db['report']['database'] = '';
-$db['report']['dbdriver'] = 'oci8';
-$db['report']['dbprefix'] = '';
-$db['report']['pconnect'] = TRUE;
-$db['report']['db_debug'] = TRUE;
-$db['report']['cache_on'] = FALSE;
-$db['report']['cachedir'] = '';
-$db['report']['char_set'] = 'utf8';
-$db['report']['dbcollat'] = 'utf8_general_ci';
-$db['report']['swap_pre'] = '';
-$db['report']['autoinit'] = TRUE;
-$db['report']['stricton'] = FALSE;
+$db['SS']['hostname'] = 'localhost';
+$db['SS']['username'] = 'root';
+$db['SS']['password'] = '';
+$db['SS']['database'] = 'SS';
+$db['SS']['dbdriver'] = 'mysqli';
+$db['SS']['dbprefix'] = '';
+$db['SS']['pconnect'] = TRUE;
+$db['SS']['db_debug'] = TRUE;
+$db['SS']['cache_on'] = FALSE;
+$db['SS']['cachedir'] = '';
+$db['SS']['char_set'] = 'utf8';
+$db['SS']['dbcollat'] = 'utf8_general_ci';
+$db['SS']['swap_pre'] = '';
+$db['SS']['autoinit'] = TRUE;
+$db['SS']['stricton'] = FALSE;
